@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * Print using printf
+ * main - Print using printf
+ * Return: 0 show no error
  */
 int main(void)
 {
