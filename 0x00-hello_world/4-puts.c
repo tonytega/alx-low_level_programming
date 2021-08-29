@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print a string using puts
- * Return: o show it executed without error 
+ * Return: o show it executed without error
  */
 int main(void)
 {
