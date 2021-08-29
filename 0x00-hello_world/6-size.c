@@ -1,6 +1,8 @@
 #include <stdio.h>
 /*
  * main - Print size of differnt data types
+ * 
+ * Description: This prints the size of various data types e.g char
  * Return: 0 show it executed without error
  */
 int main(void)
