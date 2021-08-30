@@ -1,7 +1,14 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /* more headers goes there */
-
+/**
+ * main - Entry point of program
+ * Description: This program tells you if a random
+ * number is positive, negative or equals zero
+ * @n: Collects a random number
+ * Return: returns 0 if successful
+ */
 /* betty style doc for function main goes there */
 int main(void)
 {
