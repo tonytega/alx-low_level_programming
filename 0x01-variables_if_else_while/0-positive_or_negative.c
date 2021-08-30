@@ -6,7 +6,6 @@
  * main - Entry point of program
  * Description: This program tells you if a random
  * number is positive, negative or equals zero
- * @n: Collects a random number
  * Return: returns 0 if successful
  */
 /* betty style doc for function main goes there */
