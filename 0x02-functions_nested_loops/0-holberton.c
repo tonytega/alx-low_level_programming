@@ -1,8 +1,8 @@
-# include <unistd.h>
+#include i<unistd.h>
 int _putchar(char *c);
 int main(void)
 {
-	_putchar("holberton");
+	_putchar("_putchar");
 	return (0);
 }
 int _putchar(char *c)
