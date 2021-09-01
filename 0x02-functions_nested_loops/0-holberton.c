@@ -1,7 +1,12 @@
-# include <stdio.h>
+# include <unistd.h>
+int _putchar(char c);
 int main(void)
 {
-	int n = "Holberton";
-	putchar("%c", n);
+	char c = "_putchar";
+	putchar("%d\n", c);
 	return (0);
+}
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
