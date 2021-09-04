@@ -5,9 +5,13 @@
  * lower case using lowercase
  * Return: 0 if successfull
  **/
-int main(void)
+int main()
 {
-	char n = "abcdefghijklmnopqrstuvwxyz";
-	putchar("%c\n", n );
+	char n[] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+	for(i = 0; i < 28;i = i+1)
+	{
+	putchar("%c", n[i] );
+	}
 	return (0);
 }
