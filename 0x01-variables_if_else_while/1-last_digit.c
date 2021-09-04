@@ -19,6 +19,6 @@ int main(void)
 		printf("%d is 0\n", (n%10));
 		}else if ((n%10)<0 && (n%10) != 0)
 		{
-		printf("%d is less than 6 and not 0\n", (n%10);}
+		printf("%d is less than 6 and not 0\n", (n%10));}
 	return (0);
 }
