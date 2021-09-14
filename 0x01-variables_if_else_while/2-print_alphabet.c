@@ -5,11 +5,11 @@
  * lower case using lowercase
  * Return: 0 if successfull
  **/
-int main()
+int main(void)
 {
 	char i;
 
-	for (i = 'a';i <='z' ; i++)
+	for (i = 'a'; i < = 'z' ; i++)
 	{
 		putchar(i);
 	}
