@@ -19,7 +19,6 @@ int main(void)
 	{
              putchar(j);
 	}
-	for 
-	      putchar('\n')
+	putchar('\n')
 	return (0);
 }
