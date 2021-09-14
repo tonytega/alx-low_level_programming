@@ -7,11 +7,11 @@
  **/
 int main()
 {
-	char n[] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-	for(i = 0; i < 28;i = i+1)
+	char i = 97;
+	while(i < 97)
 	{
-	putchar("%c", n[i] );
+		putchar(i);
+		i++;
 	}
 	return (0);
 }
