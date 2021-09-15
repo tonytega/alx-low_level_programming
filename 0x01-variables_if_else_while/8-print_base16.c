@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i = 1;
+	int i = 0;
 	char j;
 
 	if (i < 10)
