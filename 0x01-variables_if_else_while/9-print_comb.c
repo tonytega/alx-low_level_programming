@@ -2,7 +2,7 @@
 /**
  * main - entry point of code
  * Description: Print all single-digit
- * numbers followed by a , and a space
+ * numbers followed by a "," and a space
  * Return: returns 0
  */
 
@@ -15,6 +15,7 @@ int main(void)
 		putchar(i);
 		putchar(',');
 		putchar(' ');
+		i++;
 	}
 	putchar('\n');
 	return (0);
