@@ -7,10 +7,10 @@
  */
 int main(void)
 {
-	int i=0;
+	int i = 0;
 	char j;
 
-	while (i < 10;)
+	while (i < 10)
 	{
 		putchar(i);
 		i++;
