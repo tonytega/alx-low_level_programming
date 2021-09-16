@@ -1,8 +1,13 @@
 #include <stdio.h>
+/**
+ * main - entry point of code
+ * Description: print "_putchar" using putchar
+ * Return: returns 0
+ */
 
 int main(void)
 {
-	putchar('-');
+	putchar('_');
 	putchar('p');
 	putchar('u');
 	putchar('t');
