@@ -5,18 +5,19 @@
  * the alphabet
  * Return: returns #include <unistd.h>(0)
  */
-int print_alphabet(char c);
+void print_alphabet(void);
 int main(void)
 {
-	print_alphabet('c');
+	print_alphabet();
 	putchar('\n');
  	return (0);	
 }
-int print_alphabet(char c)
+void print_alphabet(void)
 {
+	char c= 'a';
+
 	for (c = 'a'; c <= 'z';c++)
 	{
 	putchar(c);
 	}
-	return (0);
 }
