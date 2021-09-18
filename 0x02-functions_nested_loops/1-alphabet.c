@@ -4,7 +4,7 @@
  * main - Entry point of code
  * Description: this is a function that prints
  * the alphabet
- * Return: returns #include <unistd.h>(0)
+ * Return: return i(0)
  */
 
 
@@ -16,10 +16,6 @@ void print_alphabet(void)
 	{
 	putchar(c);
 	}
+	putchar('\n')
 }
-int main(void)
-{
-print_alphabet();
-putchar('\n');
-return (0);
-}
+
