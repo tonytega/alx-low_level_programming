@@ -6,12 +6,10 @@
  * the alphabet
  * Return: returns #include <unistd.h>(0)
  */
-int main(void)
-{
-	print_alphabet();
-	putchar('\n');
- 	return (0);	
-}
+
+print_alphabet();
+putchar('\n');
+return (0);
 void print_alphabet(void)
 {
 	char c= 'a';
