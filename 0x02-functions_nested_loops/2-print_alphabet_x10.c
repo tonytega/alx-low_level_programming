@@ -12,7 +12,8 @@ void print_alphabet_x10(void)
 
 	while (i < 11)
 	{
-		char c;
+		char c = 'a';
+
 		for (c = 'a' ; c <= 10 ; c++)
 		{
 			putchar(c);
