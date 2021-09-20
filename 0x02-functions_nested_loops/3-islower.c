@@ -3,9 +3,10 @@
 #include <ctype.h>
 /**
  * _islower - checks for lowercase
- * Description: checks if an alphabet is 
+ * Description: checks if an alphabet is
  * lowercase
- * Return: returns 1 if correct and if its 
+ * @c: This is the parameter to be checked
+ * Return: returns 1 if correct and if its
  * uppercase
  */
 int _islower(int c)
@@ -14,7 +15,7 @@ int _islower(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}
