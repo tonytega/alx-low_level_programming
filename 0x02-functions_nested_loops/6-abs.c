@@ -6,6 +6,7 @@
  * _abs - return absolute number
  * Description: This function computes the
  * absolute value of an integer
+ * @i: parameter to be computed
  * Return: absolute value
  */
 
