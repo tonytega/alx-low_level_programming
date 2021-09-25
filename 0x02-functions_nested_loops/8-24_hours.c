@@ -3,20 +3,19 @@
 
 void jack_bauer(void)
 {
-	int a = 0;
-	int b = 0;
-	int c = 0;
-	int d = 0;
+	char a ='0';
+	char b = 0;
+	char c = 0;
+	char d = 0;
 
-	while (a <= 2)
+	while (a <= '2')
 	{
-		while (b <= 3)
+		while (b <= '3')
 		{
-			while (c <= 5)
+			while (c <= '5')
 			{
-				while (d <= 9)
-				{
-					putchar(a);
+				while (d <= '9')
+	
 					putchar(b);
 					putchar(':');
 					putchar(c);
