@@ -15,7 +15,8 @@ void jack_bauer(void)
 			while (c <= '5')
 			{
 				while (d <= '9')
-	
+				{
+					putchar(a);
 					putchar(b);
 					putchar(':');
 					putchar(c);
