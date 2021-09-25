@@ -1,12 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 
-void jack_bauer(void);
+void jack_bauer(void)
 {
 	int a = 0;
 	int b = 0;
 	int c = 0;
 	int d = 0;
+
 	while (a <= 2)
 	{
 		while (b <= 3)
