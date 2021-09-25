@@ -16,31 +16,31 @@ void jack_bauer(void)
 			{
 				while (d <= 9)
 				{
-					putchar('a');
-					putchar('b');
-					putchar(':');
-					putchar('c');
-					putchar('d');
+					putchar(a);
+					putchar(b);
+					putchar(:);
+					putchar(c);
+					putchar(d);
 					putchar('\n');
 					d++;		
 				}
-				putchar('a');
-				putchar('b');
-				putchar('c');
-				putchar('d');
+				putchar(a);
+				putchar(b);
+				putchar(c);
+				putchar(d);
 				putchar('\n');
 				c++;
 			}
-			putchar('a');
-			putchar('b');
-			putchar('c');
-			putchar('d');
+			putchar(a);
+			putchar(b);
+			putchar(c);
+			putchar(d);
 			b++;
 		}
-		putchar('a');
-		putchar('b');
-		putchar('c');
-		putchar('d');
+		putchar(a);
+		putchar(b);
+		putchar(c);
+		putchar(d);
 		a++;
 	}
 }
