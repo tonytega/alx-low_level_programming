@@ -4,9 +4,9 @@
 void jack_bauer(void)
 {
 	char a ='0';
-	char b = 0;
-	char c = 0;
-	char d = 0;
+	char b ='0';
+	char c = '0';
+	char d = '0';
 
 	while (a <= '2')
 	{
