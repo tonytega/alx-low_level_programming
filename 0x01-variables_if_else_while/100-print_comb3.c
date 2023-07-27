@@ -3,9 +3,9 @@
 /**
  * main - entry point
  *
- * Description: a program that prints all possible different combinations of two digits.
+ * Description: prints all possible different combinations of two digits.
  * @parameter: takes nothing
- * 
+ *
  * Return: 0 always
  */
 int main(void)
