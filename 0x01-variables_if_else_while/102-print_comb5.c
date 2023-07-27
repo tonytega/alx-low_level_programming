@@ -15,13 +15,9 @@ int main(void)
         {
             if (i != j)
             {
-                // Print the first two-digit number
                 putchar((i / 10) + '0');
                 putchar((i % 10) + '0');
-
                 putchar(' ');
-
-                // Print the second two-digit number
                 putchar((j / 10) + '0');
                 putchar((j % 10) + '0');
 
