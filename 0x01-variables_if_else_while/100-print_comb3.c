@@ -4,8 +4,7 @@
  * main - entry point
  *
  * Description: prints all possible different combinations of two digits.
- * @parameter: takes nothing
- *
+ * 
  * Return: 0 always
  */
 int main(void)
