@@ -17,8 +17,6 @@ int main(void)
 			{
 			putchar(',');
 			putchar(' ');
-			}else{
-				putchar(' ');
 			}
 			j++;
 		}
@@ -26,5 +24,6 @@ int main(void)
 	i++;
 	j = 1 + i ;
 	}
+	putchar('\n');
 	return(0);	
 }
